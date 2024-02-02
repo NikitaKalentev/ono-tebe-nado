@@ -1,1 +1,45 @@
 /* место для вашего кода */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 92px 24px 96px 24px;
+}
+
+.header__menu {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+}
+/* отступ главного меню*/
+.header__links-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 31px;
+  list-style: circle;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__logo {
+  padding-right: 170px;
+}
+
+.header__logo-image {
+  width: 148px;
+  height: 105px;
+}
+
+.address {
+font-family: Raleway, sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 24.3px;
+}
+
+.header__address {
+padding-right: 115px;
+}
