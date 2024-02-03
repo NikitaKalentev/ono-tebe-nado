@@ -145,6 +145,7 @@
   display: flex;
   flex-grow: 1;
   justify-content: space-between;
+  text-decoration: none;
 }
 
 .lots__card-list-item {
@@ -152,10 +153,6 @@
   width: 334px;
   padding-bottom: 30px;
   list-style: none;
-}
-
-.lots__card-list {
-  text-decoration: none;
 }
 
 .card {
