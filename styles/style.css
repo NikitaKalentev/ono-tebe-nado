@@ -74,10 +74,6 @@
 
 .cover__title {
   position: relative;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   z-index: 2;
   padding: 165px 50px 127px 50px;
   color: rgba(255, 255, 255, 1);
@@ -88,7 +84,7 @@
 }
 
 .letter-spacing-extended {
-  letter-spacing: 60px;
+  letter-spacing: 62px;
 }
 
 .aligned-text {
